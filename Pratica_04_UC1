@@ -1,4 +1,4 @@
-let materiais = ["Caderno","Lápis","Regua","Cola"]; // Cria Lista
+let materiais = ["Caderno","Lápis","Régua","Cola"]; // Cria Lista
 console.log(materiais[0]); // Exibe o primeiro item
 materiais[1]="Caneca"; //Altera o segundo item
 materiais.push("Borracha","Tesoura"); // Adiciona dois itens
