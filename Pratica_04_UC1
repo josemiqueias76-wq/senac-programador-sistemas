@@ -20,8 +20,10 @@ console.log(i,materiais[i]); // Mostra indice e nome
 const compras = [ 12,8,20,10]; //Valores em reais
 let total = 0; // Inicia o acumulador
 for (let i=0; i < compras.lenght; i++; { // Percorre valores
-total += compras[i]; // Soma o valor atual 
-if (compras [i]
+    total += compras[i]; // Soma o valor atual 
+    if (compras [i] >= 10 && compras [i] <= 20) { // Teste faixa
+        console.log(compras[i
+
 
 
 
