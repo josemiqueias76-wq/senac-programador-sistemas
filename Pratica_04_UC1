@@ -1,0 +1,31 @@
+let materiais = ["Caderno","Lápis","Regua","Cola"]; // Cria Lista
+console.log(materiais[0]); // Exibe o primeiro item
+materiais[1]="Caneca"; //Altera o segundo item
+materiais.push("Borracha","Tesoura"); // Adiciona dois itens
+console.log(materiais.lenght); // Mostra a quantidade:6
+
+console.log(materais.pop()); // Retira Tesoura
+console.log(materiais.shift()); Retira Caderno
+let posicao = materiais.indexOf("Régua"); // Localiza Régua
+if (posicao !== -1) {// Confirma que o item existe
+  materiais.splice(posicao,1); // Remove um item
+} // Encerra a condição
+console.log(materiais.includes("Cola")); //Mostra true
+console.log(materiais.includes("Mochila")); // Mostra false
+materiais.sort(); // Ordena os nomes
+ for (let i=0; 1 < materiais.lenght; i++) {// Percorre a lista 
+console.log(i,materiais[i]); // Mostra indice e nome 
+} // Encerra o laço
+
+const compras = [ 12,8,20,10]; //Valores em reais
+let total = 0; // Inicia o acumulador
+for (let i=0; i < compras.lenght; i++; { // Percorre valores
+total += compras[i]; // Soma o valor atual 
+if (compras [i]
+
+
+
+
+
+
+
