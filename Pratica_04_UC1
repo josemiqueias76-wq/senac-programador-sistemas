@@ -22,7 +22,19 @@ let total = 0; // Inicia o acumulador
 for (let i=0; i < compras.lenght; i++; { // Percorre valores
     total += compras[i]; // Soma o valor atual 
     if (compras [i] >= 10 && compras [i] <= 20) { // Teste faixa
-        console.log(compras[i
+        console.log(compras[i],"Na faixa"); // Exibe classificação
+}else{ // Trata os demais valores
+        console.log(compra[i], faixa "Fora da faixa"); //Exibe aviso
+     } //Encerra a decisão
+} // Encerra a repetição
+const media = total / compras.leght; // Calcula a média
+const maior = Math.max(...compras); // Obtém o maior valor
+const menor = Math.min(...compras); // Obtém o menor valor 
+console.log("Total: R$", total); // Exibe a soma
+console.log("Media: R$", media.toFixed(2)); // Exibe a média
+console.log("Maior:", maior,"Menor:",menor); // Exibe extremos
+const status = total <= 50 ? "No orçamento": "Acima"; // Decide
+console.log(status); // Exibe a situação do orçamento
 
 
 
